@@ -19,6 +19,7 @@ body {
   line-height: 1.5;
   color: var(--color-body);
 }
+/* Headings */
 h1,
 h2,
 h3 {
@@ -51,6 +52,7 @@ p {
     font-size: 2.4rem;
   }
 }
+/* Links */
 a {
   text-decoration: none;
 }
@@ -73,6 +75,7 @@ a {
 .link-arrow {
   font-size: 1.5rem;
 }
+/* Badges */
 .badge {
   border-radius: 20px;
   font-size: 2rem;
@@ -99,6 +102,7 @@ a {
     font-size: 1.2rem;
   }
 }
+/* Lists */
 .list {
   list-style: none;
   padding-left: 0;
@@ -121,6 +125,7 @@ a {
     padding-left: 0;
   }
 }
+/* Icons */
 .icon {
   width: 40px;
   height: 40px;
@@ -137,6 +142,7 @@ a {
   justify-content: center;
   align-items: center;
 }
+/* Buttons */
 .btn {
   border-radius: 40px;
   border: 0;
@@ -183,8 +189,25 @@ a {
   width: 100%;
   display: inline-block;
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .btn {
+    font-size: 1.5rem;
+  }
+}
+/* Inputs */
+.input {
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+::placeholder {
+  color: #cdcbd7;
+}
+@media screen and(min-width: 1024px) {
+  .input {
     font-size: 1.5rem;
   }
 }
